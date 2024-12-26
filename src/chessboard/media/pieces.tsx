@@ -712,7 +712,7 @@ export const defaultPieces: Record<string, ReactNode> = {
         </g>
       </g>
     </svg>
-  )
+  ),
   rPiwon: (
     <svg
       xmlns:svg="http://www.w3.org/2000/svg"
@@ -905,17 +905,142 @@ export const defaultPieces: Record<string, ReactNode> = {
       </g>
     </svg>
 
-  )
-  bC: (
+  ),
+  bCheckersMan: (
     <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
       width="45px" height="45px" viewBox="0 0 45 45" enable-background="new 0 0 45 45" xml:space="preserve">
       <circle stroke="#000000" fill="#000000" cx="22.5" cy="22.5" r="18"/>
     </svg>
   ),
-  wC: (
+  wCheckersMan: (
     <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
       width="45px" height="45px" viewBox="0 0 45 45" enable-background="new 0 0 45 45" xml:space="preserve">
       <circle stroke="#ffffff" fill="#ffffff" cx="22.5" cy="22.5" r="18"/>
+      {/* Top Circle */}
+      <circle stroke="#ffffff" fill="#ffffff" cx="12.5" cy="22.5" r="08" />
     </svg>
+  ),
+  CheckersMan: (
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlnsXlink="http://www.w3.org/1999/xlink"
+  version="1.0"
+  width="44"
+  height="44"
+  id="svg2"
+>
+  <defs id="defs4">
+    <linearGradient id="linearGradient3240">
+      <stop id="stop3242" style={{ stopColor: "#f69b89", stopOpacity: 1 }} offset="0" />
+      <stop id="stop3250" style={{ stopColor: "#ec5131", stopOpacity: 1 }} offset="0.31032619" />
+      <stop id="stop3248" style={{ stopColor: "#b2311a", stopOpacity: 1 }} offset="0.5" />
+      <stop id="stop3252" style={{ stopColor: "#781301", stopOpacity: 1 }} offset="0.75" />
+      <stop id="stop3244" style={{ stopColor: "#5b0e00", stopOpacity: 1 }} offset="1" />
+    </linearGradient>
+    <radialGradient
+      cx="-264.07739"
+      cy="471.29514"
+      r="14.983361"
+      fx="-264.07739"
+      fy="471.29514"
+      id="radialGradient3246"
+      xlinkHref="#linearGradient3240"
+      gradientUnits="userSpaceOnUse"
+      gradientTransform="matrix(-1.2276319,-3.7552324e-6,1.4983775e-7,-1.0055106,-588.2673,948.84016)"
+    />
+    <radialGradient
+      cx="-264.07739"
+      cy="471.29514"
+      r="14.983361"
+      fx="-264.07739"
+      fy="471.29514"
+      id="radialGradient3258"
+      xlinkHref="#linearGradient3240"
+      gradientUnits="userSpaceOnUse"
+      gradientTransform="matrix(-1.2276319,-3.7552324e-6,1.4983775e-7,-1.0055106,-588.2673,956.59543)"
+    />
+    <radialGradient
+      cx="-264.07739"
+      cy="471.29514"
+      r="14.983361"
+      fx="-264.07739"
+      fy="471.29514"
+      id="radialGradient3269"
+      xlinkHref="#linearGradient3240"
+      gradientUnits="userSpaceOnUse"
+      gradientTransform="matrix(-1.2276319,-3.7552324e-6,1.4983775e-7,-1.0055106,-588.2673,956.59543)"
+    />
+    <radialGradient
+      cx="-264.07739"
+      cy="471.29514"
+      r="14.983361"
+      fx="-264.07739"
+      fy="471.29514"
+      id="radialGradient3271"
+      xlinkHref="#linearGradient3240"
+      gradientUnits="userSpaceOnUse"
+      gradientTransform="matrix(-1.2276319,-3.7552324e-6,1.4983775e-7,-1.0055106,-588.2673,948.84016)"
+    />
+  </defs>
+  <g transform="translate(293.42856,-456.07648)" id="layer1">
+    <g transform="translate(-1.0959925,2.5153029)" id="g3264">
+      <path
+        d="M -255.84411,471.68766 L -255.84411,479.43979 C -255.84411,483.8075 -262.33494,487.3523 -270.33257,487.3523 C -278.33019,487.3523 -284.82102,483.8075 -284.82102,479.43979 L -284.82102,471.68766 L -255.84411,471.68766 z"
+        id="path3225"
+        style={{
+          fill: "url(#radialGradient3271)",
+          fillOpacity: 1,
+          fillRule: "evenodd",
+          stroke: "#000000",
+          strokeWidth: "0.98981297",
+          strokeLinecap: "square",
+          strokeLinejoin: "miter",
+          strokeMiterlimit: 4,
+          strokeDashoffset: 0,
+          strokeOpacity: 1,
+        }}
+      />
+      <path
+        d="M 37.637911,15.718104 A 14.488457,7.7521262 0 1 1 8.6609974,15.718104 A 14.488457,7.7521262 0 1 1 37.637911,15.718104 z"
+        transform="matrix(1,0,0,1.0206897,-293.48202,455.64435)"
+        id="path2453"
+        style={{
+          opacity: 1,
+          fill: "#e52602",
+          fillOpacity: 1,
+          fillRule: "evenodd",
+          stroke: "#000000",
+          strokeWidth: "0.98981297",
+          strokeLinecap: "square",
+          strokeLinejoin: "miter",
+          strokeMiterlimit: 4,
+          strokeDasharray: "none",
+          strokeDashoffset: 0,
+          strokeOpacity: 1,
+        }}
+      />
+    </g>
+  </g>
+</svg>
+  ),
+  bCheckersKing: (
+    <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45">
+    {/* Bottom Circle */}
+    <circle cx="22.5" cy="27" r="18" fill="#000000" stroke="#000000" strokeWidth="2" />
+    {/* Delimiter Circle */}
+    <circle cx="22.5" cy="21" r="10" fill="none" stroke="#FFD700" strokeWidth="3" />
+    {/* Top Circle */}
+    <circle cx="22.5" cy="15" r="14" fill="#000000" stroke="#000000" strokeWidth="2" />
+  </svg>
+  ),
+  wCheckersKing: (
+    <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45">
+    {/* Bottom Circle */}
+    <circle cx="22.5" cy="27" r="18" fill="#ffffff" stroke="#000000" strokeWidth="2" />
+    {/* Delimiter Circle */}
+    <circle cx="22.5" cy="21" r="10" fill="none" stroke="#FFD700" strokeWidth="3" />
+    {/* Top Circle */}
+    <circle cx="22.5" cy="15" r="14" fill="#ffffff" stroke="#000000" strokeWidth="2" />
+  </svg>
   )
 };

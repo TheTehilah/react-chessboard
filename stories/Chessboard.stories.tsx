@@ -573,6 +573,7 @@ export const StyledBoard = () => {
     "bR",
     "bQ",
     "bK",
+    "wPiwon",
   ];
 
   const customPieces = useMemo(() => {
@@ -706,6 +707,7 @@ export const Styled3DBoard = () => {
       { piece: "bR", pieceHeight: 1.2 },
       { piece: "bQ", pieceHeight: 1.5 },
       { piece: "bK", pieceHeight: 1.6 },
+      { piece: "wPiwon", pieceHeight: 1.6 },
     ];
 
     const pieceComponents = {};
@@ -1100,6 +1102,7 @@ export const ManualBoardEditor = () => {
     "bR",
     "bQ",
     "bK",
+    "wPiwon",
   ];
 
   return (

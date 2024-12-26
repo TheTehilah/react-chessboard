@@ -79,7 +79,15 @@ export type Piece =
   | "bN"
   | "bR"
   | "bQ"
-  | "bK";
+  | "bK"
+  | "wPiwon"
+  | "wC"
+  | "rPiwonDouble"
+  | "bCheckersKing"
+  | "wCheckersKing"
+  | "bCheckersMan"
+  | "wCheckersMan"
+  ;
 
 export type BoardPosition = { [square in Square]?: Piece };
 
@@ -91,6 +99,8 @@ export type PromotionPieceOption =
   | "bQ"
   | "bR"
   | "bN"
+  | "bCheckersKing"
+  | "wCheckersKing"
   | "bB";
 export type PromotionStyle = "default" | "vertical" | "modal";
 
